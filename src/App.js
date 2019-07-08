@@ -75,13 +75,15 @@ class App extends Component {
         <Nav><span>Score: {this.state.score},   Highscore: {this.state.highscore}</span></Nav>
         <Title>{this.state.message}</Title>
         <Wrapper>
-          {this.chosenImage().map(card => (
-            <Cards
-              imageClicked={this.imageClicked}
-              name={card.name}
-              image={card.image}
-            />
-          ))}
+          <div className="row">
+            {this.chosenImage().map(card => (
+              <Cards
+                imageClicked={this.imageClicked}
+                name={card.name}
+                image={card.image}
+              />
+            ))}
+          </div>
         </Wrapper>
       </div>
     );
