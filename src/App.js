@@ -36,6 +36,7 @@ class App extends Component {
         clicked: [],
       })
 
+     
       if (this.state.score > this.state.highscore) {
         this.setState({
           highscore: this.state.score
@@ -51,11 +52,15 @@ class App extends Component {
     } else {
       var score = this.state.score;
       score++;
+      if (score === 12) {
+        alert("YOU WON!")
+      }
 
       if (score > this.state.highscore) {
         this.setState({
           highscore: score
         })
+  
       }
       this.setState({
         score: score,
