@@ -1,6 +1,7 @@
 import React from "react";
+import './style.css'
 
-function Jumbotron() {
+function Jumbotron(props) {
     return (
         <div className="jumbotron jumbotron-fluid">
             <div className="container">

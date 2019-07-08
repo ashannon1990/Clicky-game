@@ -1,0 +1,31 @@
+    
+.card {
+    background: #61dafb;
+    border-radius: 3px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 3px 5px 10px #61dafb
+  }
+  .card:hover {
+    background: #61dafb;
+    border-radius: 2px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 5px 10px 100px #282C34
+  }
+  
+  .card > .imgs > img {
+    height: 100%;
+    margin: 5px;
+  }
+  
+  .card > .imgs {
+      background:#61dafb;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+  }
+ 
+ 
+  
