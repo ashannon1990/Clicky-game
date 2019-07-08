@@ -5,7 +5,7 @@ import Title from "./components/Jumbotron";
 import cards from "./cards.json";
 import Cards from "./components/Cards";
 import "./index.css";
-
+import './App.css'
 
 class App extends Component {
 
